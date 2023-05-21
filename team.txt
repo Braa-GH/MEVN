@@ -1,0 +1,27 @@
+Login:
+    router => login
+    middleware => auth
+    controllers => login
+    models => login in User model
+    configuration => private.key
+
+Signup:
+    router => signup
+    controllers => signup
+    models => add
+
+Scrapping:
+    router => news
+    controllers => news
+    model => Scrapper
+
+Validation: (127)
+    user validate
+    model => user => valid
+    model => user => validLogin
+configuration:
+    DB
+
+
+
+signup
